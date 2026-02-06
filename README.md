@@ -1,7 +1,7 @@
 # 🛡️ Demon-Engine: The Core of Project EMPIRE
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/taemingames/taemingames-app/main/public/logo_horizontal.png" width="600">
+  <img src="assets/repo_header.png" width="600">
 </p>
 
 ---
