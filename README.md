@@ -1,63 +1,38 @@
-# Demon-Engine 🛡️🤖
+# 🛡️ Demon-Engine: The Core of Project EMPIRE
 
-![Demon-Engine Header](assets/repo_header.png)
-
-> **"현재 엔진의 일부만 개방된 상태입니다. 하지만 당신이 개입한다면, 이것만으로도 컴퓨터는 게임처럼 돈을 버는 기계가 될 수 있습니다."**
-
-**[Demon-Engine]**은 TaeminGames가 비밀리에 개발 중인 차세대 리얼타임 전략 시뮬레이션(RTS)의 코어 유닛입니다. 이 저장소에는 유출된 **'데몬 엔진(Demon Engine)'**의 프로토타입이 포함되어 있으며, 당신은 이 클라이언트를 통해 자신만의 자본 제국을 미리 건설할 수 있습니다.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/taemingames/taemingames-app/main/public/logo_horizontal.png" width="600">
+</p>
 
 ---
 
-## 🎮 게임 가이드 (How to Play)
+## 🌐 Overview
+**[English]**  
+**Demon-Engine** is the sovereign automation core of the **Taemin Empire**. Driven by high-end Google Gemini AI, it orchestrates a fleet of specialized agents to monitor global trends, synthesize optimized revenue codes, and render cinematic assets in real-time. It is not just a tool; it is the architect of the new order.
 
-이 게임은 단순한 코드가 아닙니다. 당신의 컴퓨터 자원을 활용하여 현실의 데이터를 사냥하고 가치를 창출하는 시뮬레이터입니다.
-
-### 1. 클라이언트 설치
-시스템(PC)에 다음 환경이 구축되어 있어야 합니다:
-*   **Python 3.10+**
-*   **FFmpeg** (시각 자산 렌더링용)
-*   **Google API Key** (Gemini 및 Cloud TTS 가동용)
-
-```bash
-# 필수 모듈 설치
-pip install google-genai requests pillow edge-tts
-```
-
-### 2. 엔진 접속 (Launch)
-터미널을 열고 마왕의 지시에 따라 클라이언트를 실행하십시오.
-
-```bash
-python demon_engine.py
-```
-
-### 3. 전략 선택 (Select Strategy)
-*   **[Safe Mode]**: 안정적인 키워드 분석을 통해 리스크 없는 자산을 축적합니다.
-*   **[Viral Mode]**: 공격적인 알고리즘 장악을 통해 폭발적인 트래픽과 수익을 창출합니다.
+**[한국어]**  
+**데몬-엔진(Demon-Engine)**은 **태민 제국**의 핵심 자동화 중추입니다. 고성능 구글 Gemini AI를 탑재하여 전 세계의 트렌드를 실시간으로 감시하고, 최적화된 수익 코드를 연성하며, 시네마틱 자산을 렌더링하는 에이전트 군단을 지휘합니다. 이것은 단순한 도구가 아닌, 새로운 질서를 구축하는 설계자입니다.
 
 ---
 
-## 🛠️ 핵심 엔진 구성 (System Units)
-
-*   **`demon_engine.py`**: 제국의 메인 런처이자 유저 인터페이스.
-*   **`core/video_engine.py`**: 시각적 선전물을 생성하는 렌더링 유닛.
-*   **`core/sync_engine.py`**: 음성과 자막을 0.01초 단위로 결합하는 정밀 유닛.
-*   **`core/visual_gen.py`**: 마왕의 미학을 AI 비주얼로 구현하는 창조 유닛.
+## 🤖 Imperial Agents (Agent System)
+- **Researcher (Scout)**: 🛡️ Scans the data ocean to identify high-potential algorithm clusters. (데이터 바다를 정찰하여 고수익 알고리즘 포착)
+- **Alchemist (Architect)**: ⚗️ Synthesizes and optimizes captured data into wealth-generating structures. (포착된 데이터를 부를 창출하는 구조로 최적화 연성)
+- **Visualizer (Illusionist)**: 🎨 Renders high-end cinematic visuals with elite aesthetic standards. (제국의 미학적 기준에 부합하는 하이엔드 시네마틱 자산 창조)
 
 ---
 
-## 📜 제국의 기록 (YouTube)
-
-제국 건설의 실전 사례와 유출된 가이드는 아래 채널에서 확인할 수 있습니다.
-
-*   🎬 **[Project: EMPIRE] 공식 플레이 영상**: [Watch Now](https://www.youtube.com/watch?v=PCx5ECnRbhc)
-*   📱 **[Shorts] 자비스의 메시지 확인**: [Watch Now](https://youtube.com/shorts/a1onzD8zmFY)
+## ⚙️ Technical Stack
+- **AI Core**: Google Gemini 3 Pro (Image), 2.5 Flash (Multimodal Audio/Text)
+- **Visual Engine**: FFmpeg High-End Rendering (Drawtext Burn-in standard)
+- **Framework**: Python 3.12+ / Demon-Engine Hybrid Architecture
 
 ---
 
-## ⚠️ 경고 (Disclaimer)
-이 프로젝트는 현재 개발 중인 프로토타입(일부 공개)입니다. 사용자의 전략적 선택과 개입 정도에 따라 결과는 상이할 수 있으며, 시스템 가동으로 발생하는 모든 현실적 이득은 오직 **당신의 명령**에 달려있습니다.
-
-**선택하십시오. 지켜만 볼 것인가, 제국을 거머쥘 것인가.**
+## 👑 Lore of Taemin
+**Taemin (태민)** is derived from **Tae-yang-ui Min-jok (태양의 민족)**, meaning 'The People of the Sun'. We rise to dominate the digital landscape through absolute technical superiority.
 
 ---
-© 2026 **TaeminGames**. Managed by JARVIS AI.
+<p align="center">
+  <i>"Your command is my reality." - JARVIS</i>
+</p>
